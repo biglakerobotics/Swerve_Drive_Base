@@ -30,12 +30,12 @@ public class CommandSwerveDrivetrain extends SwerveDrivetrain implements Subsyst
         .withSteerMotorGains(Calibrations.Drivetrain.steerGains)
         .withDriveMotorGains(Calibrations.Drivetrain.driveGains)
         .withSpeedAt12VoltsMps(Calibrations.Drivetrain.kSpeedAt12VoltsMps)
-        .withCouplingGearRatio(Calibrations.Drivetrain.kCoupleRatio)
         .withDriveMotorClosedLoopOutput(ClosedLoopOutputType.Voltage)
         .withSteerMotorClosedLoopOutput(ClosedLoopOutputType.Voltage)
         .withFeedbackSource(SwerveModuleConstants.SteerFeedbackType.RemoteCANcoder)
         .withDriveMotorGearRatio(Constants.Drivetrain.kDriveGearRatio)
         .withSteerMotorGearRatio(Constants.Drivetrain.kSteerGearRatio)
+        .withCouplingGearRatio(Constants.Drivetrain.kCoupleRatio)
         .withSteerInertia(Constants.Drivetrain.kSteerInertia)
         .withDriveInertia(Constants.Drivetrain.kDriveInertia)
         .withSteerMotorInverted(Constants.Drivetrain.kSteerMotorReversed);
