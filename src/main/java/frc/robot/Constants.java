@@ -5,10 +5,10 @@ public class Constants {
 
     // Constants for the drivetrain
     public class Drivetrain {
-        // I would leave these in fractional form...easier to check if you have L1/L2/L3
         // https://www.swervedrivespecialties.com/products/mk4i-swerve-module
-        public static final double kDriveGearRatio = 6.746031746031747;
-        public static final double kSteerGearRatio = 21.428571428571427;
+        public static final double kDriveGearRatio = (50.0 / 14.0) * (17.0 / 27.0) * (45.0 / 15.0);
+        public static final double kSteerGearRatio = 150.0 / 7.0;
+        public static final double kCoupleRatio = 50.0 / 14.0;
 
         public static final boolean kSteerMotorReversed = true;
         public static final boolean kInvertLeftSide = false;

@@ -33,9 +33,6 @@ public class Calibrations {
         // TODO: Write commands and provide the logging to collect the calibration data
         public static final double kWheelRadiusInches = 4;
 
-        // Every 1 rotation of the azimuth results in kCoupleRatio drive motor turns
-        // TODO: Write commands and provide the logging to collect the calibration data
-        public static final double kCoupleRatio = 3.5714285714285716;
 
         // The max acceleration and velocity should be measured several times on a per wheel
         // basis. Use the wheel with the lowest acceleration/velocity and reduce those values
